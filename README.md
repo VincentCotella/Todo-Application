@@ -31,60 +31,60 @@ python todo_app.py
 
 Contributions to this project are welcome from developers of all skill levels. Whether you want to fix a bug, add a new feature, or improve the documentation, your contributions are valuable. Here's how you can get started:
 
-### Fork the Repository
+### 1. Fork the Repository
 
-1. Click the "Fork" button at the top-right corner of this repository to create a copy of it in your GitHub account.
+Click the "Fork" button at the top-right corner of this repository to create a copy of it in your GitHub account.
 
-### Clone Your Fork
+### 2. Clone Your Fork
 
-2. Clone the forked repository to your local machine using the following command (replace `[your-username]` with your GitHub username):
+Clone the forked repository to your local machine using the following command (replace `[your-username]` with your GitHub username):
 
    ```bash
    git clone https://github.com/[your-username]/Todo-Application.git
    ```
 
-### Create a New Branch
+### 3. Create a New Branch
 
-3. Create a new branch for your changes. For example, if you're fixing a bug, you can name it "fix-issue-XYZ" or if you're adding a feature, you can name it "feature-new-feature."
+Create a new branch for your changes. For example, if you're fixing a bug, you can name it "fix-issue-XYZ" or if you're adding a feature, you can name it "feature-new-feature."
 
    ```bash
    git checkout -b your-branch-name
    ```
 
-### Make Changes
+### 4. Make Changes
 
-4. Make your desired changes to the project. You can modify code, add new features, fix bugs, or improve documentation.
+Make your desired changes to the project. You can modify code, add new features, fix bugs, or improve documentation.
 
-### Commit Changes
+### 5. Commit Changes
 
-5. Commit your changes with a descriptive commit message:
+Commit your changes with a descriptive commit message:
 
    ```bash
    git add .
    git commit -m "Your detailed commit message here"
    ```
 
-### Push Changes
+### 6. Push Changes
 
-6. Push your changes to your forked repository on GitHub:
+Push your changes to your forked repository on GitHub:
 
    ```bash
    git push origin your-branch-name
    ```
 
-### Submit a Pull Request (PR)
+### 7. Submit a Pull Request (PR)
 
-7. Go to the original repository on GitHub and click the "Pull Request" button. Describe your changes in the pull request, and submit it for review.
+Go to the original repository on GitHub and click the "Pull Request" button. Describe your changes in the pull request, and submit it for review.
 
-### Review and Collaboration
+### 8. Review and Collaboration
 
-8. Your pull request will be reviewed 
+Your pull request will be reviewed 
 
-### Merge
+### 9. Merge
 
-9. Once your pull request is approved, it will be merged into the main project.
+Once your pull request is approved, it will be merged into the main project.
 
-Thank you for contributing to this project! Your contributions help make it better for everyone.
+Thank you for contributing to this project! 
 
 ## License
 [MIT]
