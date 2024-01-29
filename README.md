@@ -16,7 +16,7 @@ To run this application, you need Python installed on your system. This applicat
 ## Usage
 To start the application, run the following command in the terminal:
 ```
-python todo_app.py
+python TodoApp.py
 ```
 
 ## Contributing
