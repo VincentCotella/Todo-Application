@@ -1,13 +1,5 @@
 # Todo-Application
 
-## Introduction
-This To-Do List application is a simple, interactive task manager. Built with Python and Tkinter, it allows users to add, view, sort, and manage tasks effectively with a user-friendly graphical interface.
-
-## Features
-- Add tasks with optional descriptions, due dates, and importance levels.
-- Sort tasks by the order they were added, their due dates, or their importance.
-- View detailed task information with a double-click.
-- Mark tasks as completed or delete them.
 
 ## Installation
 To run this application, you need Python installed on your system. This application is built with Python [3.11] and Tkinter, which is included in the standard library of Python.
