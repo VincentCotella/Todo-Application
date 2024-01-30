@@ -1,5 +1,6 @@
 import tkinter as tk
 from tkinter import ttk, messagebox
+import time 
 
 class ToDoListApp:
     def __init__(self, root):
@@ -83,7 +84,9 @@ class ToDoListApp:
                 "description": task_description,
                 "due_date": due_date if due_date and due_date != 'YYYY-MM-DD' else "N/A",
                 "importance": importance if importance else "Medium",
-                "completed": False
+                "completed": False,
+                "timestamp": time.time() 
+
             }
             self.tasks.append(task)
             self.update_tasks_listbox()
@@ -131,7 +134,7 @@ class ToDoListApp:
         self.update_tasks_listbox()
 
     def sort_by_date(self):
-        self.tasks = sorted(self.tasks, key=lambda x: x['due_date'] if x['due_date'] != 'N/A' else '')
+        self.tasks = sorted(self.tasks, key=lambda x: x['timestamp'])
         self.update_tasks_listbox()
 
     def sort_by_importance(self):
