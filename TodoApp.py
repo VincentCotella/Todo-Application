@@ -103,9 +103,13 @@ class ToDoListApp:
         if not selected_indices:
             messagebox.showwarning("Warning", "Please select a task to delete.")
             return
-        for index in selected_indices[::-1]:
-            del self.tasks[index]
-        self.update_tasks_listbox()
+
+        # Confirmation dialog
+        response = messagebox.askyesno("Confirm Delete", "Are you sure you want to delete the selected task(s)?")
+        if response:  # If user confirms deletion
+            for index in selected_indices[::-1]:
+                del self.tasks[index]
+            self.update_tasks_listbox()
 
     def complete_task(self):
         selected_indices = self.tasks_listbox.curselection()
